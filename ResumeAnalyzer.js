@@ -458,7 +458,7 @@ const ResumeAnalyzer = ({ resources = [] }) => {
 
     try {
       const result = await geminiAnalyzeResume({
-        apiKey: "AIzaSyC2Psvxy3aRne0-berI59WXCCPaKRW_5-g", // 🔒 put your key in env for production
+        apiKey: "", // 🔒 put your key in env for production
         resumeText: text,
       });
 
@@ -783,3 +783,4 @@ const ResumeAnalyzer = ({ resources = [] }) => {
 };
 
 export default ResumeAnalyzer;
+
