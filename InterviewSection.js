@@ -4,7 +4,7 @@ import "./InterviewSection.css";
 
 const GEMINI_ENDPOINT =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
-const GEMINI_API_KEY = "AIzaSyC2Psvxy3aRne0-berI59WXCCPaKRW_5-g";
+const GEMINI_API_KEY = "";
 
 const InterviewSection = () => {
   const navigate = useNavigate();
@@ -366,5 +366,6 @@ const InterviewSection = () => {
     </section>
   );
 };
+
 
 export default InterviewSection;
