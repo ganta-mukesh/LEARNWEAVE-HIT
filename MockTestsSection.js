@@ -5,7 +5,7 @@ import Editor from "@monaco-editor/react";
 const COMPILER_API = "http://localhost:4000/compile";
 const GEMINI_ENDPOINT =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
-const GEMINI_API_KEY = "AIzaSyC2Psvxy3aRne0-berI59WXCCPaKRW_5-g";
+const GEMINI_API_KEY = "";
 
 // Company presets
 const COMPANY_TESTS = [
@@ -567,4 +567,5 @@ export default function MockTestsSection() {
       )}
     </section>
   );
+
 }
